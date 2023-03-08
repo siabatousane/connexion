@@ -1,0 +1,91 @@
+*{
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+    .form1{
+        height: 400px;
+        color: white;
+        border: 1px solid;
+        width: 40%;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 90px;
+        padding: 20px;
+        background-color: rgba(11, 11, 250, 0.5);
+    }
+    .form label{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50%;
+        font-size: 20px;
+    }
+ .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+ }
+ header{
+    font-size: 30px;
+     color: white;
+     text-align: center;
+     padding: 15px;
+ }
+
+  input{
+    height: 45px;
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 30px;
+    outline: none;
+    background-color: transparent;
+    padding: 0 0 0 45px;
+    
+ }
+ .form1 a{
+    color: white;
+    float: left;
+    left: 20px;
+ }
+i{
+    position: relative;
+    right: 60px;
+}
+
+
+.pied {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(11, 11, 250, 0.5);
+    margin: auto;
+    border: 1px solid;
+}
+.lien a{
+    color: rgb(30, 2, 155);
+    font-size: 18px;
+    padding: 10px;
+
+}
